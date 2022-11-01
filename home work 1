@@ -1,0 +1,26 @@
+
+#include <iostream>
+
+using namespace std;
+float s (int m , int n)
+{
+    int e ;
+e=m;
+m=n;
+n=e;
+cout<<"max=" <<m<< "min="<<n<<endl;
+    return 0;
+}
+
+int main()
+{
+    int m  = max(10, 20);
+  cout << "Maximum is: " << m << endl;
+  int n = min (10,20);
+  cout << "Minimeum is: " << n << endl;
+  s(m,n);
+  
+  
+
+    return 0;
+}
